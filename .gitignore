@@ -61,3 +61,5 @@ typings/
 .next
 
 .vscode/
+config/*.env.js
+!config/sample.env.js

@@ -2,7 +2,7 @@ const { expect } = require('chai');
 
 const isFreshTimestamp = require('../lib/is-fresh-timestamp');
 
-describe('isFreshTimestamp function', function() {
+describe('isFreshTimestamp()', function() {
   it('is a function', function() {
     expect(isFreshTimestamp).to.be.a('function');
   });

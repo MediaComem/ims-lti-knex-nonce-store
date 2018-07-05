@@ -1,7 +1,7 @@
 const { expect } = require('chai');
 const isTimestamp = require('../lib/is-timestamp');
 
-describe('isTimestamp function', function() {
+describe('isTimestamp()', function() {
   it('is a function', function() {
     expect(isTimestamp).to.be.a('function');
   });
