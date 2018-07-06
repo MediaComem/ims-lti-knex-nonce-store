@@ -1,5 +1,5 @@
 {
-  "name": "knex-nonce-store",
+  "name": "@mediacomem/knex-nonce-store",
   "version": "1.0.0",
   "description": "LTI nonce store with Knex - use with ims-lti package",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MediaComem/knex-nonce-store.git"
+    "url": "https://github.com/MediaComem/knex-nonce-store.git"
   },
   "keywords": [
     "Knex",
