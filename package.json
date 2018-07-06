@@ -8,19 +8,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/MediaComem/knex-nonce-store.git"
+    "url": "https://github.com/MediaComem/knex-nonce-store"
   },
   "keywords": [
     "Knex",
+    "knex",
     "OAuth",
-    "LTI"
+    "LTI",
+    "nonce",
+    "express",
+    "node",
+    "lit",
+    "ims-lti"
   ],
   "author": "Mathias <Tazaf> Oberson",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/MediaComem/knex-nonce-store/issues"
   },
-  "homepage": "https://github.com/MediaComem/knex-nonce-store#readme",
+  "homepage": "https://github.com/MediaComem/knex-nonce-store",
   "devDependencies": {
     "chai": "^4.1.2",
     "chai-as-promised": "^7.1.1",
