@@ -1,6 +1,6 @@
 {
   "name": "@mediacomem/knex-nonce-store",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "LTI nonce store with Knex - use with ims-lti package",
   "main": "index.js",
   "scripts": {
