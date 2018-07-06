@@ -6,10 +6,7 @@
   "scripts": {
     "test": "mocha"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/MediaComem/knex-nonce-store"
-  },
+  "repository": "github:mediacomem/knex-nonce-store",
   "keywords": [
     "Knex",
     "knex",

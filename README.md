@@ -24,7 +24,7 @@ To do that, please see the [knex documentation][knex-install].
 
 To manage and store the OAuth nonce/timestamp with `knex-nonce-store` you need to create a new table in your database.
 
-By default, this table should be called `nonce_store`, but you can give the library the name you want when instanciating it (see [API](##API)).
+By default, this table should be called `nonce_store`, but you can give the library the name you want when instanciating it (see [API](#API)).
 
 The table should be composed of at least two columns :
 
