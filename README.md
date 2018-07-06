@@ -6,7 +6,9 @@ To achieve that, the `ims-lti` uses a store to save OAuth nonce/timestramp recei
 
 **This `knex-nonce-store` package implements a new nonce store that uses [Knex][knex] to do the work.**
 
-## Installation
+## Prerequisites
+
+This package expect that the following packages are installed on your project.
 
 ### `ims-lti`
 
@@ -17,14 +19,6 @@ Being a complement to the `ims-lti` package, you should install this package pri
 Before using the `knex-nonce-store`, you need to install `knex` as long as the package for the database you will use with it.
 
 To do that, please see the [knex documentation][knex-install].
-
-### `knex-nonce-store`
-
-Once `ims-lti`, `knex` and the package corresponding to the database you use are installed, you can then install `knex-nonce-store` :
-
-```shell
-$> npm i knex-nonce-store
-```
 
 ## Setup
 
@@ -44,7 +38,7 @@ To use this nonce store, you need to instanciate it and pass the instance to the
 ```javascript
 const { Provider } = require('ims-lti');
 const knex = require('knex');
-const { KnexNonceStore } = require('knex-nonce-store');
+const { KnexNonceStore } = require('@mediacomem/knex-nonce-store');
 
 const knexDB = knex({
   // You need to initialize the knex library. See the Knex documentation.
