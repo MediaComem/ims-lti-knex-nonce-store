@@ -81,8 +81,8 @@ describe('KnexNonceStore', function() {
     const knexNonceStore = new KnexNonceStore(db);
     expect(knexNonceStore).to.be.an.instanceOf(KnexNonceStore).that.have.all.keys(expectedKeys);
     expect(knexNonceStore.knex).to.eql(db);
-    expect(knexNonceStore.expireIn).to.equals(300);
-    expect(knexNonceStore.lifetime).to.equals(300);
+    expect(knexNonceStore.expireIn).to.equals(5400);
+    expect(knexNonceStore.lifetime).to.equals(5400);
     expect(knexNonceStore.tableName).to.equals('nonce_store');
     expect(knexNonceStore.isNew).to.be.a('function');
     expect(knexNonceStore.setUsed).to.be.a('function');
